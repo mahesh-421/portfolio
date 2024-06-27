@@ -1,17 +1,30 @@
-import NETFLIX from '../assets/projects/netflixClone.gif';
-import YOUTUBE from '../assets/projects/youtubeClone.gif';
+import netflix from '../assets/projects/netflixClone.gif';
+import youtube from '../assets/projects/youtubeClone.gif';
+import colab from '../assets/projects/colab.gif';
 
 const projectsData = [
   {
-    img: NETFLIX,
-    name: 'NETFLIX CLONE',
+    id: 1,
+    img: colab,
+    name: 'CoLab',
     discription:
-      "While making this project learned about firebase, validation and Youtube's iframe",
-    url: '/netflixclone',
+      'It is realtime chatApp/Codding application with upcoming audio/video call features',
+    url: 'https://colab.maheshdubey.com',
   },
+
   {
-    img: YOUTUBE,
-    name: 'YOUTUBE CLONE',
+    id: 2,
+    img: netflix,
+    name: 'NETFLIX UI CLONE',
+    discription:
+      "While making this project explored firebase, form validation on fronend and Youtube's iframe",
+    url: '/netflixuiclone',
+  },
+
+  {
+    id: 3,
+    img: youtube,
+    name: 'YOUTUBE UI CLONE',
     discription:
       "In this project I have used Youtube's API's and react redux for state management",
     url: '/youtubeclone',

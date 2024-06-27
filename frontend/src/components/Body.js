@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Landing from './landing/Landing';
 
 import { changeToShow } from '../store/CurrentViewSlice';
+import Header from './Header';
 
 const Body = () => {
   const dispatch = useDispatch();
@@ -54,7 +55,8 @@ const Body = () => {
   }, []);
 
   return (
-    <div className=" h-screen snap-y snap-mandatory overflow-y-scroll">
+    <div className="h-screen snap-y snap-mandatory overflow-y-scroll">
+      <Header />
       <Landing />
       <About />
       <Projects />

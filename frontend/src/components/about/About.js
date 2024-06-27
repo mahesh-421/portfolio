@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <div
-      className="snap-end h-screen bg-purple-100 overflow-y-scroll no-scrollbar"
+      className="snap-end h-full bg-purple-100 overflow-y-scroll no-scrollbar "
       id="about"
       ref={aboutRef}
     >

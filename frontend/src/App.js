@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Header from './components/Header';
 import Body from './components/Body';
 import Error from './components/Error';
 
@@ -14,16 +13,8 @@ import Watch from './youtubeClone/components/watchPage/WatchPage';
 function App() {
   return (
     <Routes>
-      <Route
-        path="/"
-        element={
-          <div className="h-screen">
-            <Header />
-            <Body />
-          </div>
-        }
-      />
-      <Route path="/netflixclone" element={<Netflixclone />}>
+      <Route path="/" element={<Body />} />
+      <Route path="/netflixuiclone" element={<Netflixclone />}>
         <Route path="browse" element={<NetflixBrowse />} />
       </Route>
 

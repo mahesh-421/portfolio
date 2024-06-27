@@ -20,7 +20,7 @@ const Header = () => {
     signOut(auth)
       .then(() => {})
       .catch((error) => {
-        Navigate('/netflixclone/error');
+        Navigate('/netflixuiclone/error');
       });
   };
 
@@ -38,10 +38,10 @@ const Header = () => {
         );
 
         // console.log("done1");
-        Navigate('/netflixclone/browse');
+        Navigate('/netflixuiclone/browse');
       } else {
         // console.log("done2");
-        Navigate('/netflixclone/');
+        Navigate('/netflixuiclone');
         dispatch(removeUser());
       }
     });

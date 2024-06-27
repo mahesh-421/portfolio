@@ -11,7 +11,7 @@ const Header = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className="px-2 w-full h-10 sm:h-16 md:h-20 lg:h-24 bg-gradient-to-t from-white to-purple-100 flex justify-between items-center fixed ">
+    <div className="px-2 w-full h-10 sm:h-16 md:h-20 lg:h-24 bg-gradient-to-t from-white to-purple-100 flex justify-between items-center sticky top-0 z-20">
       <div className="mx-2 sm:mx-4  md:mx-10 ">
         <img src={Logo} alt="Logo" className="w-6 sm:w-10 md:w-12 lg:w-16" />
       </div>
